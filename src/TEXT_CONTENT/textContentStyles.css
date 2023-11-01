@@ -1,0 +1,14 @@
+.row {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  left: 20%;
+  width: 60%;
+  text-align: center;
+  align-items: center;
+}
+.row a img {
+  width: 25%;
+  justify-self: center;
+  cursor: pointer;
+}/*# sourceMappingURL=textContentStyles.css.map */

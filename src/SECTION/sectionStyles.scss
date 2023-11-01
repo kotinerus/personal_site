@@ -1,0 +1,116 @@
+$primary-white: #f0ebd8;
+$light-blue: #748cab;
+$light-blue-second: #3e5c76;
+$dark-blue: #0d1321;
+.sectionComp {
+  position: relative;
+  left: 5vw;
+  width: 90vw;
+  height: auto;
+
+  h1 {
+    opacity: 0.7;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 5px solid #3e5c76;
+  }
+  article {
+    span {
+      color: #748cab;
+    }
+  }
+}
+@media screen and (min-width: 1024px) {
+  .sectionComp {
+    h1 {
+      width: 30vw;
+      font-size: 2rem;
+      height: 2.5rem;
+    }
+    .sectionCompDiv {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      height: 80%;
+      img {
+        border-radius: 10px 75px 10px 75px;
+        display: flex;
+        justify-self: center;
+        align-self: center;
+        width: 60%;
+      }
+      article {
+        font-size: 2rem;
+        justify-self: flex-start;
+        align-self: center;
+      }
+    }
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .sectionComp {
+    h1 {
+      width: 40vw;
+      font-size: 1.3rem;
+      height: 1.7rem;
+    }
+    .sectionCompDiv {
+      display: flex;
+      flex-direction: column;
+      height: auto;
+      img {
+        border-radius: 25px;
+        display: flex;
+        justify-self: center;
+        align-self: center;
+        width: 40%;
+      }
+      article {
+        position: relative;
+        left: 10%;
+        width: 80%;
+        h2 {
+          font-size: 3rem;
+          text-align: center;
+        }
+        p {
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .sectionComp {
+    h1 {
+      width: 50vw;
+      font-size: 1.3rem;
+      height: 1.5rem;
+    }
+    .sectionCompDiv {
+      display: flex;
+      flex-direction: column;
+      height: auto;
+      width: 100%;
+      img {
+        border-radius: 25px;
+        display: flex;
+        justify-self: center;
+        align-self: center;
+        width: 40%;
+      }
+      article {
+        position: relative;
+        left: 10%;
+        width: 80%;
+        h2 {
+          font-size: 2rem;
+          text-align: center;
+        }
+        p {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+}

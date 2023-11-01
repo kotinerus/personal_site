@@ -1,0 +1,161 @@
+$primary-white: #f0ebd8;
+$light-blue: #748cab;
+$light-blue-second: #3e5c76;
+$dark-blue: #0d1321;
+
+@media screen and (min-width: 1024px) {
+  .imageLeft {
+    left: 0%;
+    grid-template-areas: "img article";
+    grid-template-columns: 1.5fr 2fr;
+    border-radius: 75px 25px 75px 25px;
+  }
+  .imageRight {
+    left: 20%;
+    grid-template-areas: "article img";
+    grid-template-columns: 2fr 1.5fr;
+    border-radius: 25px 75px 25px 75px;
+  }
+  a {
+    text-decoration: none;
+    color: $primary-white;
+    text-transform: uppercase;
+    .panelSection {
+      position: relative;
+      width: 80%;
+      background-color: $light-blue-second;
+      height: auto;
+      display: grid;
+      align-items: center;
+      justify-items: center;
+      display: grid;
+      align-items: center;
+      justify-items: center;
+      margin-bottom: 1rem;
+      padding: 1rem;
+      img {
+        width: 25vw;
+        grid-area: img;
+      }
+      article {
+        grid-area: article;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        text-align: center;
+
+        h2 {
+          font-size: 2.5rem;
+          letter-spacing: 1rem;
+          color: $primary-white;
+        }
+        .inProgress {
+          background-color: red;
+          font-size: 1.5rem;
+          border-radius: 45px;
+          letter-spacing: 0.5rem;
+          width: 80%;
+        }
+        .techologyDiv {
+          display: flex;
+          justify-content: space-evenly;
+
+          .techPanel {
+            text-align: center;
+            img {
+              width: 35%;
+            }
+          }
+        }
+      }
+    }
+  }
+  .certificatePanel {
+    position: relative;
+    left: 10%;
+    width: 80%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+    justify-items: center;
+    background-color: $light-blue;
+    margin-bottom: 1rem;
+    padding: 0.5rem 0;
+    border-radius: 75px;
+    img {
+      width: 30%;
+    }
+  }
+}
+@media screen and (max-width: 1023px) {
+  a {
+    text-decoration: none;
+    text-align: center;
+    .panelSection {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      margin-bottom: 2rem;
+      background-color: $light-blue-second;
+      align-items: center;
+      justify-content: center;
+      border-radius: 45px;
+
+      img {
+        padding-top: 1rem;
+        width: 50%;
+      }
+      article {
+        width: 80%;
+        color: $primary-white;
+        h2 {
+          font-size: 2.5rem;
+          letter-spacing: 0.7rem;
+          text-transform: uppercase;
+          text-align: center;
+        }
+
+        .inProgress {
+          background-color: red;
+          font-size: 1.5rem;
+          border-radius: 45px;
+          letter-spacing: 0.5rem;
+          width: 80%;
+          position: relative;
+          left: 10%;
+        }
+        .techologyDiv {
+          display: flex;
+          justify-content: space-evenly;
+          padding-top: 1rem;
+          .techPanel {
+            text-align: center;
+            img {
+              width: 35%;
+            }
+          }
+        }
+      }
+    }
+  }
+  .certificatePanel {
+    position: relative;
+    left: 5%;
+    width: 90%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+    justify-items: center;
+    background-color: $light-blue;
+    margin-bottom: 1rem;
+    padding: 0.5rem 0;
+    border-radius: 75px;
+    font-size: 0.8rem;
+    img {
+      width: 50%;
+    }
+  }
+}
