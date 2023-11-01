@@ -12,7 +12,6 @@ import certificatesList from "./certificatesList";
 export default function App() {
   return (
     <>
-      i
       <Navbar />
       <Section id={"about"} text={"1. About me"}>
         <div className="sectionCompDiv">

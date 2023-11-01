@@ -99,21 +99,20 @@
   }
   a .panelSection img {
     padding-top: 1rem;
-    width: 50%;
+    width: 75%;
   }
   a .panelSection article {
     width: 80%;
     color: #f0ebd8;
   }
   a .panelSection article h2 {
-    font-size: 2.5rem;
-    letter-spacing: 0.7rem;
+    font-size: 2rem;
     text-transform: uppercase;
     text-align: center;
   }
   a .panelSection article .inProgress {
     background-color: red;
-    font-size: 1.5rem;
+    font-size: 1rem;
     border-radius: 45px;
     letter-spacing: 0.5rem;
     width: 80%;
@@ -123,7 +122,6 @@
   a .panelSection article .techologyDiv {
     display: flex;
     justify-content: space-evenly;
-    padding-top: 1rem;
   }
   a .panelSection article .techologyDiv .techPanel {
     text-align: center;
