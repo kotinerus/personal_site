@@ -12,6 +12,7 @@ import certificatesList from "./certificatesList";
 export default function App() {
   return (
     <>
+      i
       <Navbar />
       <Section id={"about"} text={"1. About me"}>
         <div className="sectionCompDiv">
@@ -31,13 +32,11 @@ export default function App() {
           </article>
         </div>
       </Section>
-
       <Section id={"projects"} text={"2. Projects"}>
         {projectsList.map((e) => (
           <Panel key={e.id} object={e} />
         ))}
       </Section>
-
       <Section id={"certificates"} text={"3. Certificates"}>
         {certificatesList.map((e) => (
           <Certificate key={e.id}>
