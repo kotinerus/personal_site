@@ -1,0 +1,26 @@
+.navbarDiv {
+  position: sticky;
+  top: 0%;
+  height: 10vh;
+  width: 100%;
+  background-color: #0d1321;
+  z-index: 1;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.navbarDiv a {
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-decoration: none;
+  color: #f0ebd8;
+  border-bottom: 3px solid #3e5c76;
+}
+
+a:hover {
+  border-bottom: 3px solid #f0ebd8;
+}/*# sourceMappingURL=navbarStyles.css.map */

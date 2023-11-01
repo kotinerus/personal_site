@@ -1,0 +1,38 @@
+.sectionComp {
+  height: auto;
+}
+.sectionComp h1 {
+  width: 25%;
+  font-size: 2rem;
+  height: 2.5rem;
+  opacity: 0.7;
+  text-align: center;
+  text-transform: uppercase;
+  border-bottom: 5px solid #3e5c76;
+}
+.sectionComp .sectionCompDiv {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  height: auto;
+}
+.sectionComp .sectionCompDiv img {
+  border-radius: 10px 75px 10px 75px;
+  position: relative;
+  left: 25%;
+  top: 25%;
+  translate: -25% -25%;
+  width: 70%;
+}
+.sectionComp .sectionCompDiv article {
+  justify-self: flex-start;
+  align-self: center;
+}
+.sectionComp .sectionCompDiv article h2 {
+  font-size: 2.5rem;
+}
+.sectionComp .sectionCompDiv article p {
+  font-size: 1.75rem;
+}
+.sectionComp .sectionCompDiv article span {
+  color: #748cab;
+}/*# sourceMappingURL=sectionStyles.css.map */

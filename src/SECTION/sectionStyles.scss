@@ -1,0 +1,41 @@
+$light-blue: #748cab;
+$light-blue-second: #3e5c76;
+.sectionComp {
+  height: auto;
+
+  h1 {
+    width: 25%;
+    font-size: 2rem;
+    height: 2.5rem;
+    opacity: 0.7;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 5px solid $light-blue-second;
+  }
+  .sectionCompDiv {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    height: auto;
+    img {
+      border-radius: 10px 75px 10px 75px;
+      position: relative;
+      left: 25%;
+      top: 25%;
+      translate: -25% -25%;
+      width: 70%;
+    }
+    article {
+      justify-self: flex-start;
+      align-self: center;
+      h2 {
+        font-size: 2.5rem;
+      }
+      p {
+        font-size: 1.75rem;
+      }
+      span {
+        color: $light-blue;
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.textContentDiv {
+  position: relative;
+  left: 10%;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.textContentDiv .row {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  width: 60%;
+  text-align: center;
+  align-items: center;
+}
+.textContentDiv .row img {
+  width: 25%;
+  justify-self: center;
+}/*# sourceMappingURL=textContentStyles.css.map */
