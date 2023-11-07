@@ -15,6 +15,7 @@ import it from "./logos/it.png";
 import gmail from "./logos/gmail.png";
 import github from "./logos/github.png";
 import linked from "./logos/linked.png";
+import socialMain from "./images/socialMain.png";
 export {
   jsLogo,
   reactLogo,
@@ -33,4 +34,5 @@ export {
   gmail,
   github,
   linked,
+  socialMain,
 };
